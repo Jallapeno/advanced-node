@@ -20,5 +20,5 @@
     "strictPropertyInitialization": true, // obriga a inicializacao de todas as variaveis de uma classe
     "noImplicitAny": true // impede que variaveis do codigo sejam do tipo "any" por default. O any podera ser utilizado se informado a tipagem explicitamente
   },
-  "include": ["src"]
+  "include": ["src", "tests"]
 }
