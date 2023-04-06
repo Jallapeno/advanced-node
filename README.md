@@ -1,1 +1,1 @@
-"# advanced-node" 
+# advanced-node
