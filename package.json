@@ -1,0 +1,20 @@
+{
+  "name": "advanced-node",
+  "version": "1.0.0",
+  "description": "`` caminho para se tornar sênior em NodeJs ``",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jallapeno/advanced-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jallapeno/advanced-node/issues"
+  },
+  "homepage": "https://github.com/Jallapeno/advanced-node#readme"
+}
