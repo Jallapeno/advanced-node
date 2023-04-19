@@ -1,7 +1,7 @@
 {
 "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDirs": ["src", "tests"],
     "target": "ES2021",
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true, // forca a importacao com o exato nome do arquivo
@@ -14,11 +14,13 @@
         "@/*" : ["*"],
         "@/tests/*" : ["../tests/*"]
     },
-    // "strict": true, // recomendado pelo proprio typescript, atalho para habilitar outras propriedades do TS as opcoes abaixo listadas sao true por default caso tenha o "strict" : true 
+    // "strict": true, // recomendado pelo proprio typescript, atalho para habilitar outras propriedades do TS as opcoes abaixo listadas sao true por default caso tenha o "strict" : true
     "strictNullChecks": true, // null ou undefined não fazem parte mais de nenhuma tipagem por default
     "strictFunctionTypes": true, // bloqueia a implementacao parcial de interfaces dentro de funcoes
     "strictPropertyInitialization": true, // obriga a inicializacao de todas as variaveis de uma classe
-    "noImplicitAny": true // impede que variaveis do codigo sejam do tipo "any" por default. O any podera ser utilizado se informado a tipagem explicitamente
+    "noImplicitAny": true, // impede que variaveis do codigo sejam do tipo "any" por default. O any podera ser utilizado se informado a tipagem explicitamente
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "include": ["src", "tests"]
 }
